@@ -1,0 +1,7 @@
+0.  it is the longest (45 letters) English word that refers to a lung disease that is otherwise known as silicosis
+1.  getrusage()  returns  resource usage measures for either RUSAGE_SELF, RUSAGE_CHILDREN, RUSAGE_THREAD
+2.  16
+3.  before and after are structs and we need their reference for the fonction to accees their inside elements
+4.  In the for loop we're reading character by character of the text file pointer allowing only alphabetical characters and apostrophes and ignoring words with numbers to create a whole word. After that we have a whole word, we terminate the word with \0 and increment the counter, check the word spelling,update benchmarking which allow us to calculate time of execution and print the word if mispelled and finally prepare for the next word.
+5.  fgetc allows us to catch characters like numbers and other signs that we dont have in words in the dictionary whereas fscanf returns a whole string which may contains other signs character rather just alphabetical
+6.  The const qualifier is used to tell C that the variable value can not change after initialisation. we want words passed in check and the dictionary to be consistent

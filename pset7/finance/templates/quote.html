@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+<form action="{{ url_for("quote") }}" method="post">
+    <fieldset>
+        <div class="form-group">
+            <input class="form-control" name="quote" placeholder="Symbol" type="text">
+        </div>
+        <div>
+            <button class="btn btn-default" type="submit">Quote</button>
+        </div>
+    </fieldset>
+</form>
+{% endblock %}

@@ -1,0 +1,12 @@
+1.  stdint.h is the header that declares sets of integer types that have specified widths, and defines corresponding sets of macros. It also defines macros that specify limits of integer types corresponding to types defined in other standard headers.
+2.  We use these predefined type in a program for specific number usage
+3.  a BYTE is 1 Byte, a DWORD is 4 Bytes, a LONG is 4 Bytes and a WORD is 2 Bytes.
+4.  0x4D42
+5.  bfSize specifies the size of the bitmap file and biSize specifies the size of the struct (BITMAPINFOHEADER).
+6.  biHeight is negative when the bitmap is not stored backwards. Each bitmap’s top row is stored first and bottom row last.
+7.  biBitCount
+8.  When we couldn't create the file for many reasons (not enough space, we don't have permission, etc.)
+9.  Because we're just reading 1 set of sizeof(BITMAPFILEHEADER) or sizeof(BITMAPINFOHEADER) or sizeof(RGBTRIPLE).
+10. 0
+11. The  fseek()  function  sets the file position indicator for the stream pointed to by stream.  The new position, measured in bytes, is obtained by adding offset bytes to the position specified by whence.
+12. If whence is set to  SEEK_CUR the offset is relative to the current position indicator.
